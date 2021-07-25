@@ -1,0 +1,93 @@
+{
+	"folders": [
+		{
+			"path": "../git-repos/shared-pkgs"
+		},
+		{
+			"path": "../git-repos/nile-ap-sw"
+		},
+		{
+			"path": "../git-repos/openwrt"
+		},
+		{
+			"path": "../git-repos/nilebot"
+		},
+		{
+			"path": "../git-repos/nile-pkgs"
+		},
+		{
+			"path": "../git-repos/memtrace"
+		}
+	],
+	"settings": {
+		"go.gopath": "/home/vikpatel/gopath",
+		"go.buildOnSave": "package",
+		"go.coverOnTestPackage": true,
+		"go.formatTool": "gofmt",
+		"git.allowForcePush": true,
+		"[go]": {
+			"editor.formatOnSave": true
+		},
+		"go.coverageDecorator": {
+			"type": "highlight",
+			"coveredHighlightColor": "rgba(64,128,128,0.5)",
+			"uncoveredHighlightColor": "rgba(128,64,64,0.25)",
+			"coveredBorderColor": "rgba(64,128,128,0.5)",
+			"uncoveredBorderColor": "rgba(128,64,64,0.25)",
+			"coveredGutterStyle": "blockblue",
+			"uncoveredGutterStyle": "slashyellow"
+		},
+		"go.gocodePackageLookupMode": "go",
+		"go.languageServerExperimentalFeatures": {
+			"diagnostics": true
+		},
+		"go.useLanguageServer": true,
+		"git.alwaysSignOff": true,
+		"git.autofetch": "all",
+		"git.fetchOnPull": true,
+		"go.autocompleteUnimportedPackages": true,
+		"go.coverageOptions": "showCoveredCodeOnly",
+		"go.coverOnSave": true,
+		"go.coverOnSingleTest": true,
+		"go.coverOnSingleTestFile": true,
+		"go.editorContextMenuCommands": {
+			"generateTestForFile": true,
+			"generateTestForPackage": true
+		},
+		"go.lintTool": "golint",
+		"go.liveErrors": {
+			"enabled": false,
+			"delay": 500
+		},
+		"go.toolsEnvVars": {
+			"GO111MODULE" : "on"
+		},
+		"go.gocodeAutoBuild": true,
+		"go.vetOnSave": "package",
+		"go.testTimeout": "3000s",
+		"go.playground": {
+			"openbrowser": true,
+			"share": true,
+			"run": true
+		},
+		"gopls": {
+			"experimentalWorkspaceModule": true,
+			"build.allowModfileModifications": true
+		},
+		"go.gotoSymbol.includeImports": true,
+		"go.toolsManagement.autoUpdate": true,
+		"go.useCodeSnippetsOnFunctionSuggest": true,
+		"python.analysis.autoImportCompletions": true,
+		"python.analysis.autoSearchPaths": true,
+		"python.autoComplete.addBrackets": false,
+		"python.languageServer": "Microsoft",
+		"python.linting.enabled": true,
+		"python.linting.lintOnSave": true,
+		"git.autorefresh": true,
+		"git.autofetchPeriod": 900,
+		"git.pullTags": true,
+		"git.pruneOnFetch": true,
+		"go.disableConcurrentTests": true,
+		"go.installDependenciesWhenBuilding": true,
+	}
+}
